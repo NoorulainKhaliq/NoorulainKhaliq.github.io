@@ -1,7 +1,7 @@
 html, body {
   font-size: 16px;
   color: white;
-  font-family: Helvetica;
+  font-family: helvetica, sans-serif;
   max-width: 1200px;
   background-color: black;
   display: block;
@@ -9,16 +9,23 @@ html, body {
 
 /* Header */
 
-.header-container {
+.flex-container {
   display: flex;
-  padding-top: 20px;
-  max-width: 960px;
+  align-items: center;
+  width: 960px;
   margin: 0 auto;
 }
-.header-container span {
-  align-self: flex-end;
+
+#logo {
+  padding: 15px 0 15px 0;
+  border: 1px solid white;
 }
-.header-container img {
-  height: 1.5em;
-  padding-right: 15px;
+
+.logo-image {
+  width: 25px;
+  height: 20px;
+}
+
+#logo span {
+  margin: 10px;
 }
