@@ -1,31 +1,56 @@
-html, body {
-  font-size: 16px;
-  color: white;
-  font-family: helvetica, sans-serif;
-  max-width: 1200px;
+
+  /*background-image: url("/Users/Noorulain/SecretAgentSupply/resources/images/moto.jpeg");*/
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 0;
   background-color: black;
-  display: block;
+  color: white;
 }
 
-/* Header */
-
-.flex-container {
-  display: flex;
-  align-items: center;
-  width: 960px;
+.container {
+  max-width: 960px;
   margin: 0 auto;
 }
 
-#logo {
-  padding: 15px 0 15px 0;
+/* MAIN LOGO*/
+
+.company {
   border: 1px solid white;
+  height: 2.5rem;
+}
+.container img {
+  height: 1.5rem;
+  padding-top: .27em;
+}
+.company span {
+  display: inline-block;
+  padding: 0.66rem 0 0.66rem 1rem;
 }
 
-.logo-image {
-  width: 25px;
-  height: 20px;
+/* INTRO */
+
+.intro {
+  border: 1px solid white;
+  background:  url("/Users/Noorulain/SecretAgentSupply/resources/images/moto.jpeg") no-repeat center;
+  height: 25rem;
 }
 
-#logo span {
-  margin: 10px;
+.container .intro-content h4 {
+  font-size: 1rem;
+}
+
+.container .intro-content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 0.25rem;
+}
+
+.intro-content {
+  width: 20rem;
+  background-color: black;
+  margin-top: 9em;
+  position: relative;
+  padding: 2em 3em;
 }
